@@ -1,5 +1,9 @@
 /* incase you can't use tailwind, write your css here. make sure you write your css within the comment text with your name */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&family=Nunito:wght@400;500;600;700;800;900&display=swap');
+
+
 /* finbarr styles starts */
  h1{
     color: blue;
@@ -8,7 +12,69 @@
 /* finbarr styles end */
 
 /* Doyin styles starts */
+#inp1:focus{
+   outline: none;
+}
+
+#header-section{
+   display: grid;
+   grid-template-columns: 1.5fr 1.2fr;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+   color: red;
+   opacity: 1; /* Firefox */
+ }
  
+ :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: red;
+ }
+ 
+ ::-ms-input-placeholder { /* Microsoft Edge */
+   color: red;
+ }
+
+#second{
+ display: grid;
+ grid-template-columns: 0.7fr 0.35fr;
+}
+
+#ellipse{
+ position: relative;
+ top: 70px;
+ z-index: 0;
+}
+#img1, #img2, #img3, #img4{
+ position: absolute;
+ z-index: 1;
+}
+#img1{
+ right: 68%;
+ top: 42px;
+}
+#img4{
+ left: 35%;
+ top: 17px;
+}
+#img2{
+ right: 69%;
+ top: 230px;
+}
+#img3{
+ left: 35%;
+ top: 272px;
+}
+#inp2:focus{
+ outline: none;
+}
+#inp3:focus{
+ outline: none;
+}
+#signUp-grid{
+ display: grid;
+ grid-template-columns: 0.9fr 0.4fr;
+ justify-content: space-between;
+}
 
 /* Doyin styles end */
 

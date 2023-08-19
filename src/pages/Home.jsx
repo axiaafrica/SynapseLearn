@@ -14,14 +14,14 @@ import TakeStep from '../components/landingPage/TakeStep';
 const Home = () => {
   return (
     <div>
-      {/* <Navbar/> */}
+      <Navbar/>
       <Header/>
-      <Explore/>
+      {/* <Explore/>
       <ReachOut/>
       <Testimonial/>
       <Subscription/>
       <TakeStep/>
-      <Footer/>
+      <Footer/> */}
     </div>
   )
 }
