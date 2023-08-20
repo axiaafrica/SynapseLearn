@@ -8,86 +8,123 @@
  }
  body{
    padding: 0px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  }
  .container{
-   align-items: center;
    margin: 54px 100px 54px 100px;
  }
+
  .section4{
+ width: 1193px;
+ height: 619px;
+ display: flex;
+ padding: 36px 21px 0px 50px;
+ 
+ border-radius: 40px;
+background: var(--foundation-primary-light-active, #B8EFF3);
+background-image: url("/src/image/background.svg");
+background-size: auto;
+background-repeat: no-repeat;
+
+}
+.subtitle{
    display: flex;
-   flex-direction: column;
-   align-items: center;
-   width: 100%;
+   width: 70%;
  }
- .subtitle{
-   display: flex;
-   margin-bottom: 30px;
- }
- .subtitleText{
-   font-size: 36px;
-   font-weight: bold;
- }
- .testimonials{
-   height: 100%;
-   width: 100%;
-   display: flex;
- }
- .leftColumn{
-   display: flex;
-   flex-direction: column;
-   height: 260px;
-   width: 90%;
-   margin-right: 40px;
-   padding: 15px;
-   background-color: #D9D9D9;
- }
+.subtitleText{
+color: #000;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: normal;
+   justify-content: left;
+}
+.testimonials{
+  display: flex;
+  width: 100%;
+  align-items: start;
+  margin-top: 20px;
+  justify-content: center;
+}
+.leftColumn{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: #ffffff;
+ border-radius: 4px;
+padding: 18px 14px;
+align-items: center;
+margin-right: 20px;
+margin-top: 60px;
+margin-left: -20px;
+
+}
 .userText{
-   font-size: 20px;
-   font-weight: normal;
-   text-justify: distribute-all-lines;
+  font-size: 20px;
+  font-weight: normal;
+  text-justify:newspaper;
+  color: #525252;
+  line-height: 28px;
 }
 .userDetails{
-  display: flex;
-  margin-top: 32px;
-  justify-content: center;
-  align-items: center;
+ display: flex;
+ margin-top: 12px;
+ justify-content: center;
+ align-items: center;
 }
 .userInfo{
-  display: flex;
-  flex-direction: column;
-  margin-left: 10px;
+ display: flex;
+ flex-direction: column;
+ margin-left: 10px;
+ font-size: 20px;
+ font-weight: 400;
 }
 .userName{
-  font-weight: bold;
+  font-size: 20px;
+ color: #202020;
+ font-weight: 600;
 }
-.middleColumn{
-  display: flex;
-  flex-direction: column;
-  height: 260px;
-  width: 90%;
-  padding: 15px;
-  background-color: #D9D9D9;
-}
+
 .rightColumn{
   display: flex;
   flex-direction: column;
-  height: 260px;
-  width: 90%;
-  padding: 15px;
-  margin-left: 40px;
-  background-color: #D9D9D9;
+  width: 50%;
+  height: 100%;
 }
+.upRow{
+display: flex;
+flex-direction: column;
+width: 100%;
+background-color: #ffffff;
+border-radius: 4px;
+padding: 18px 14px;
+align-items: center;
+}
+
+.downRow{
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+width: 100%;
+background-color: #ffffff;
+border-radius: 4px;
+padding: 18px 14px;
+align-items: center;
+}
+
 .section5{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  margin-top: -80px;
   justify-content: center;
-  width: 100%;
+  width: 1193px;
+  transition: filter 0ms ease-in-out 300ms;
 }
 .background{
   display: flex;
-  padding: 128px 324px;
+  padding: 128px 200px;
+  border-radius: 40px;
   justify-content: center;
   align-items: center;
   background-color: #000000;
@@ -99,7 +136,7 @@
 .subscriptionText{
   color: #ffffff;
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
 }
 .form{
@@ -108,25 +145,80 @@
   justify-content: center;
 }
 .textbox{
-  width: 60%;
+  width: 560px;
   height: 56px;
+  background-color: #000000;
   padding: 14px 0px 14px 24px;
-  border-radius: 5px;
-  color: #000000;
+  border-radius: 12px;
+  font-size: 20px;
+  color: #ffffff;
   border: 1px solid #ffffff;
 }
-.subscribe {
+#subscribe {
   padding: 10px;
   margin: 0px 0px 0px 20px;
   width: 200px;
   justify-content: center;
-  font-weight: bold;
+  font-weight: 700;
   background-color: #1BCBD8;
   border: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 20px;
-  font-family: calibri;
+  color: #000000;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.popUp{
+  top: -100%;
+  margin-left: 24.78em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 1193px;
+  display: flex;
+  flex-direction: column;
+  padding: 128px 200px;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  transition: top 0ms ease-in-out 300ms, 
+              opacity 300ms ease-in-out,
+              margin-top 300ms ease-in-out;
+}
+body.active-popUp{
+  overflow: hidden;
+}
+bosy.active-popUp .section5{
+  filter:blur(5px);
+  background: rgba(0,0,0,0.8);
+  transition: filter 0ms ease-in-out 0ms;
+}
+body.active-popUp .popUp{
+  top: 50%;
+  opacity: 1;
+  margin-top: 0px;
+  transition: top 0ms ease-in-out 0ms, 
+              opacity 300ms ease-in-out,
+              margin-top 300ms ease-in-out;
+}
+
+
+
+.thankYou{
+  color:#ffffff;
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  align-content: center;
+}
+.emoji{
+  margin-top:20px;
+}
+.thankYou2{
+  margin-top: 20px;
   color: #ffffff;
-  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 /* finbarr styles end */

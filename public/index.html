@@ -10,6 +10,18 @@
       content="Web site created using create-react-app"
     />
     <link rel="stylesheet" href="/src/assets/style.css">
+    <script>
+      document.querySelector("#subscribe").addEventListener(
+        "click", function(){
+          document.body.classList.add("active-popUp");
+        }
+      );
+
+      // document.querySelector(".popUp .close-btn")
+      // .addEventListener("click", function(){
+      //   document.body.classList.remove("active-popUp");
+      // });
+    </script>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -46,7 +58,7 @@
     <div class="container"><!--This container houses the testimonial section and the subscription section-->
       <div class="section4"><!-- This is the container for the testimonial section-->
         <div class="subtitle"><!--This class subtitle houses the text "What People Are Saying About Us"-->
-            <div class="subtitleText">What People Are Saying About Us</div>
+            <div class="subtitleText">What People Say About Us</div>
         </div>
         <div class="testimonials">
             <div class="leftColumn">
@@ -54,33 +66,35 @@
                     on a transformative learning adventure. Unleash your potential, acquire new skills,
                 </div>
                 <div class="userDetails">
-                    <div class="userImage"><img src="/image/image1_simisola.svg"></div>
-                    <div class="userInfo"> 
-                      <div class="userName">Simisola</div>
-                      <div class="userRole">CEO, Payday</div>
-                    </div> 
-                </div>
-            </div>
-            <div class="middleColumn">
-                <div class="userText">Take the leap towards a brighter future! Join [E-Learning Platform Name] today and embark 
-                  on a transformative learning adventure. Unleash your potential, acquire new skills,</div>
-                <div class="userDetails">
-                    <div class="userImage"><img src="/image/image2_Dapo.svg"></div>
-                    <div class="userInfo"> 
-                      <div class="userName">Dapo</div>
-                      <div class="userRole">CEO, Axia Africa</div>
-                    </div>
-                </div>
-            </div>
-            <div class="rightColumn">
-                <div class="userText">Take the leap towards a brighter future! Join [E-Learning Platform Name] 
-                    today and embark on a transformative learning adventure. Unleash your potential, acquire new 
-                    skills,</div>
-                <div class="userDetails">
-                    <div class="userImage"><img src="/image/image3_chief.svg"></div>
+                    <div class="userImage"><img src="/src/image/image3_chief.svg"></div>
                     <div class="userInfo"> 
                       <div class="userName">Chief</div>
                       <div class="userRole">CEO, Propel</div>
+                      <div class="ratings"><img src="/src/image/stars.svg"></div>
+                    </div> 
+                </div>
+            </div>
+            <div class="rightColumn">
+              <div class="upRow">
+                <div class="userText">Take the leap towards a brighter future! Join [E-Learning Platform Name] today and embark 
+                  on a transformative learning </div>
+                <div class="userDetails">
+                    <div class="userImage"><img src="/src/image/image1_simisola.svg"></div>
+                    <div class="userInfo"> 
+                      <div class="userName">Simisola</div>
+                      <div class="userRole">CEO, Payday</div>
+                      <div class="userRole"><img src="/src/image/stars.svg"></div>
+                    </div>
+                </div>
+              </div>
+              <div class="downRow">
+                <div class="userText">Take the leap towards a brighter future! Join [E-Learning Platform]</div>
+                <div class="userDetails">
+                    <div class="userImage"><img src="/src/image/image2_Dapo.svg"></div>
+                    <div class="userInfo"> 
+                      <div class="userName">Dapo</div>
+                      <div class="userRole">CEO, Axia Africa</div>
+                      <div class="userRole"><img src="/src/image/stars.svg"></div>
                     </div>
                 </div>
             </div>
@@ -94,12 +108,19 @@
         <div class="subscription">
           <div class="subscriptionText">Get all the latest Updates directly to your inbox</div>
           <form action="" class="form"> 
-          <input type="email" name="name" class="textbox" value="" placeholder="Enter Email">
-             <input type="submit" value="Subscribe" class="subscribe">
+            <input type="email" name="name" class="textbox" value="" placeholder="Enter Email" >
+            <!--<input type="submit" value="Subscribe" class="subscribe">-->
+            <button id="subscribe">Subscribe</button>
           </form>
+          <div class="popUp">
+            <div class="thankYou">Thank you!</div>
+            <div class="emoji"><img src="/src/image/emojione_slightly-smiling-face.svg"></div>
+            <div class="thankYou2">Be on the lookout for emails from us</div>
+          </div>
         </div>
       </div>
     </div>  
+
   <!--This html section is developed by finbarr and ends here-->
 </body>
 </html>
