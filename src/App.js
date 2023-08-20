@@ -6,11 +6,16 @@ import Dashboard from './pages/Dashboard';
 import Profile from './pages/Profile';
 import PasswordSetting from './pages/PasswordSetting';
 import ProfileSetting from './pages/ProfileSetting';
+import Verification from './pages/Verification';
+import Registration from './pages/Registration';
+import PasswordRecovery from './pages/PasswordRecovery';
+import PasswordReset from './pages/PasswordReset';
+
 
 function App() {
   return <div>
     <Home/>
-     
+
   </div>
   
 }
