@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div id="header-section" class="rounded-[189px] py-2  mx-[100px]">
       <div class="flex justify-around pl-9">
-        <a href="./index.html"><img src={logo} alt="logo"></img></a>
+        <a href="./index.html"><img src={logo} alt="logo"/></a>
         <div class="flex gap-2 bg-[#FFFFFF] border-[1px] border-[#355584] pl-4 pr-[70px] my-[7px] rounded-[30px]">
         <img src= {search} alt="searchIcon"></img>
         <input class="border-0" type="text" name="" id="inp1" placeholder="Search for Course title"></input>

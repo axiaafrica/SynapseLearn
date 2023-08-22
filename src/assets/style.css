@@ -70,6 +70,30 @@
 #inp3:focus{
  outline: none;
 }
+#inp2,#inp3{
+   height: 50px;
+   border-radius: 20px;
+   border: 1.4px solid #B9B9B999;
+}
+#signup{
+   border: 1px solid #525252;
+}
+#search{
+   border: 1px solid #355584
+}
+
+.numeric{
+   width: 80px;
+   height: 72px;
+   border: 1.6px solid #1498A2;
+   padding-left: 38px;
+   /* pointer-events: none; */
+   /* i have to work on the placeholder height */
+}
+.numeric:focus{
+   outline: black;
+}
+
 #signUp-grid{
  display: grid;
  grid-template-columns: 0.9fr 0.4fr;

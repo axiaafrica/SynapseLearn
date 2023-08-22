@@ -20,15 +20,15 @@ const Header = () => {
             <p class="text-[19px] w-[75%]">Level up your tech skills with our modern e-learning platform. Whether you're a tech pro or a curious beginner, we've got 
                 exciting courses just for you. Join now and embark on an incredible learning adventure!</p>  
             <div id="buttons" class="flex gap-1 cursor-none">
-                <div class="bg-[#FFFFFF] border-2 border-[#355584] rounded-[29px] w-[162px] py-2 text-center">
+                <div class="bg-[#FFFFFF] border-[1.6px] border-[#355584] rounded-[29px] w-[162px] py-2 text-center">
                     <p class="text-[24px] font-bold">120K+</p>
                     <p>Enrolled students</p>
                 </div>
-                <div class="bg-[#FFFFFF] border-2 border-[#355584] rounded-[29px] w-[162px] py-2 text-center">
+                <div class="bg-[#FFFFFF] border-[1.6px] border-[#355584] rounded-[29px] w-[162px] py-2 text-center">
                     <p class="text-[24px] font-bold">47+</p>
                     <p>Partners</p>
                 </div>
-                <div class="bg-[#FFFFFF] border-2 border-[#355584] rounded-[29px] w-[162px] py-2 text-center">
+                <div class="bg-[#FFFFFF] border-[1.6px] border-[#355584] rounded-[29px] w-[162px] py-2 text-center">
                     <p class="text-[24px] font-bold">160+</p>
                     <p>Qualified teachers</p>
                 </div>
