@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    padding: 0px 115px 0px 43px;
+    padding: 0px 100px 0px 0px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .dashboardContainer{
@@ -12,22 +12,242 @@ body{
     width: 100%;
     padding-top: 20px;
 }
-.menu{
-
-}
 .leftColumn{
     display: flex;
     flex-direction: column;
     width: 30%;
+    align-items: center;
+    border-right: 1px solid #E6EEF0;
+    background-color: #fdfdfd;
+    
 }
-
-
-
-
+.menuDashboard, .menuEnrolledCourse, .menuCourseLibrary, .menuEbooks, .menuSettings{
+    display: flex;
+    height: 49px;
+    margin-left: 40px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    align-items: center;
+    align-content: center;
+    width: 232px;
+    margin-bottom: 50px;
+}
+.textDashboard, .textEnrolledCourse, .textCourseLibrary, .textEbooks, .textSettings{
+    margin-left: 10px;
+    font-size: 24px;
+    color: #1498A2;
+    color: #797F80;
+}
+.textDashboard{
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #1498A2;
+}
 .rightColumn{
     display: flex;
     flex-direction: column;
+    margin-left: 40px;
 }
 .section1{
     display: flex;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    background-color: #cecece;
+    box-shadow: #1b2729;
+    width: 320px;
+    border-radius: 24px;
+    padding: 10px 50px 10px 50px;
+    margin-right: 20px;
+}
+.iconMenuCourse, .textMenuCourse{
+    margin-bottom: 10px;
+}
+.textMenuCourse{
+    font-size: 24px;
+    font-weight: 500;
+}
+.figureMenuCourse{
+    font-size: 80px;
+    color: #000000;
+    font-weight: 600;
+}
+.imageMenuCourse{
+    display: flex;
+    align-items: center;
+}
+.imgMenu{
+    margin-right: -15px;  
+}
+.textMenuCourse2, .progress{
+    margin-left: -15px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.progress .progressBar{
+    width: 100%;
+    display: flex;
+    margin-left: 15px;
+}
+.progress{
+    margin-top: 25px;
+} 
+.progressText{
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+.progressFigures{
+    width: 100%;
+    display: flex;
+}
+.progressFigures1{
+    width: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 15px;
+}
+.progressFigures2{
+    width: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+}
+.imageMenuCourse2{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+.imgMenu{
+    margin-right: -15px;  
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.mainText{
+    font-size: 36px;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.card2{
+    display: flex;
+    width: 520px;
+    height: 170px;
+    padding: 16px 20px 16px 20px;
+    background-color: #cecece;
+    border-radius: 10px;
+}
+.leftColumn2{
+    display: flex;
+    width: 30%;
+    height: 140px;
+}
+.rightColumn2{
+    justify-content: center;
+    display: flex;
+    margin-left: 20px;
+    width: 70%;
+    flex-direction: column;
+}
+.subText1, .subText3{
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #7c7d7e;
+    font-weight: 500;
+}
+.subText2{
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px 50px 0px;
+
+    width: 100%;
+}
+.header{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.seeAll{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 530px;
+}
+.seeAllText{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    margin-right: 10px;
+}
+.carousel{
+    display: flex;
+    margin-bottom: 100px;
+}
+.card3{
+    border: 1px solid #1498A2;
+    border-radius: 16px;
+    margin: 0px 15px 0px 0px;
+    display: flex;
+    width: 241px;
+    flex-direction: column;
+}
+.imgCard3{
+   border-radius: 16px;
+    
+}
+.textCard3{
+    margin: 5px 10px 5px 10px; 
+    font-size: 16px;
+    color: #000000;  
+    font-weight: 700;
+}
+.text1Card3{
+    margin: 5px 10px 5px 10px; 
+    font-size: 16px;
+    color: #525252;  
+    font-weight: 400;
+}
+.timeRow{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin: 5px 10px 0px 10px;   
+}
+.timerCard3{
+    display: flex;
+    height: 4vh;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.courseDuration{
+    font-size: 14px;
+    color: #52525299;
+    font-weight: 600;
+}
+.enrollButton{
+    display: flex;
+    margin: 5px 10px 20px 10px;   
+}
+.enrollText{
+    margin: 0px 5px 0px 20px;
+        font-size: 14px;
+        color: #000000;
+        font-weight: 600;
 }
