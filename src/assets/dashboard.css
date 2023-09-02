@@ -32,9 +32,17 @@ body{
     width: 232px;
     margin-bottom: 50px;
 }
+.iconDashboard, .iconEnrolledCourse, .iconCourseLibrary, .iconEbooks, .iconSettings{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
 .textDashboard, .textEnrolledCourse, .textCourseLibrary, .textEbooks, .textSettings{
     margin-left: 10px;
-    font-size: 24px;
+    margin-bottom: 5px;
+    font-size: 26px;
     color: #1498A2;
     color: #797F80;
 }
@@ -230,11 +238,11 @@ body{
 }
 .timerCard3{
     display: flex;
-    height: 4vh;
     justify-items: center;
     align-items: center;
     align-content: center;
-    
+    text-align: center; 
+    margin-top: 8px;
 }
 .courseDuration{
     font-size: 14px;
