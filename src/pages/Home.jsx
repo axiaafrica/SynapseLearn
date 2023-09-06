@@ -15,13 +15,13 @@ const Home = () => {
   return (
     <div>
       {/* <Navbar/> */}
-      <Header/>
+      {/* <Header/> */}
       <Explore/>
       <ReachOut/>
-      <Testimonial/>
-      <Subscription/>
-      <TakeStep/>
-      <Footer/>
+      {/* <Testimonial/> */}
+      {/* <Subscription/> */}
+      {/* <TakeStep/> */}
+      {/* <Footer/> */}
     </div>
   )
 }

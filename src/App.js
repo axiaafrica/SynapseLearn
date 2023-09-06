@@ -12,10 +12,12 @@ import PasswordRecovery from './pages/PasswordRecovery';
 import PasswordReset from './pages/PasswordReset';
 
 
+
 function App() {
   return <div>
-    <Home/>
-
+     {/* <Home/>  */}
+<PasswordReset/> 
+  {/* <Registration/> */}
   </div>
   
 }

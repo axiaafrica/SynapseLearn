@@ -18,6 +18,13 @@
 /* Mubarak styles end */
 
 /* Dimeji styles starts */
- 
+  .arrow-left{
+   background-color: black;
+   border-radius: 9999px;
+ }
+ .arrow-right{
+   background-color: black;
+   border-radius: 9999px;
+ } 
 
 /* Dimeji styles end */
